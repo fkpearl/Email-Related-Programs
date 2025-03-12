@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ReadEmailAndResetByCode">
+      <class name="SendSimpleEmail">
         <methods>
-          <include name="verifyConfirmationMail"/>
+          <include name="sendEmailWithOnlyText"/>
         </methods>
-      </class> <!-- ReadEmailAndResetByCode -->
+      </class> <!-- SendSimpleEmail -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
